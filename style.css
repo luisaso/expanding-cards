@@ -30,7 +30,8 @@ body {
   flex: 0.5;
   margin: 10px;
   position: relative;
-  transition: flex 0.7s ease-in;
+  filter: blur(5px);
+  transition: flex 0.7s ease-in, filter 0.7s ease-in;
 }
 
 .panel h3 {
@@ -44,6 +45,7 @@ body {
 
 .panel.active {
 flex: 5;
+filter: none;
 }
 
 .panel.active h3 {

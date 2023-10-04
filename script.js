@@ -10,5 +10,5 @@ const activatePanel = (panel) => {
 };
 
 panels.forEach((panel) => {
-  panel.addEventListener("mouseover", () => activatePanel(panel));
+  panel.addEventListener("mouseenter", () => activatePanel(panel));
 });
